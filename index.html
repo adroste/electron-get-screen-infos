@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>electron-get-screen-infos</title>
+  </head>
+  <body>
+    <h1>Display infos</h1>
+    <div>
+        <b>Primary Display-ID:</b> 
+        <pre id="primaryDisplayId"></pre>
+        <b>Display[]:</b>
+        <pre id="displays"></pre>
+        <b>Thumbnails:</b>
+        <div id="thumbnails"></div>
+    </div>
+    <script>
+        require('./updateInfos.js')
+    </script>
+  </body>
+</html>
