@@ -18,6 +18,7 @@ function updateInfos() {
             return acc + `
                 <div class="thumb">
                     ID: ${cur.id}
+                    D_ID: ${cur.display_id}
                     <img src="${cur.thumbnail.toDataURL()}"/>
                 </div>
             `;

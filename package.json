@@ -4,10 +4,17 @@
   "main": "index.js",
   "repository": "https://progmem64@github.com/progmem64/electron-get-screen-infos.git",
   "author": "Alexander Droste <alexander.droste@progmem.de>",
-  "license": "MIT",
+  "license": "MIT",  
+  "build": {
+    "appId": "com.progmem.electrongetscreeninfos",
+    "mac": {
+      "identity": null
+    }
+  },
   "devDependencies": {
-    "electron": "^3.0.10"
-  }, 
+    "electron": "^3.0.10",
+    "electron-builder": "^20.39.0"
+  },
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
